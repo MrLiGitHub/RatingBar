@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RatingBar</string>
+    <string name="bar1_name">I am a click bar: </string>
+    <string name="bar2_name">I am a drag bar: </string>
+    <string name="bar3_name">I am a face bar: </string>
+    <string name="score">Sore : </string>
+    <string name="comment">Comment : </string>
+    <string name="Worst">Worst</string>
+    <string name="Bad">Bad</string>
+    <string name="Good">Good</string>
+    <string name="Better">Better</string>
+    <string name="Best">Best</string>
+</resources>

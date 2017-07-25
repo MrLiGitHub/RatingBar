@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.xl.ratingbar.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:textSize="15sp"
+        android:textColor="#4D4D4D"
+        android:text="@string/bar1_name"
+        />
+
+    <com.xl.ratingbar.MyRatingBar
+        android:id="@+id/bar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:clickable="true"
+        app:starCount="5"
+        app:starNum="1"
+        app:halfstart="true"
+        app:starEmpty="@mipmap/star_empty"
+        app:starHalf="@mipmap/star_half"
+        app:starFill="@mipmap/star_full"
+        app:starImageHeight="30dp"
+        app:starImageWidth="30dp"
+        app:starImagePadding="15dp"
+        >
+
+    </com.xl.ratingbar.MyRatingBar>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"
+        android:textColor="#4D4D4D"
+        android:text="@string/score"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp"
+        android:textColor="#4D4D4D"
+        android:text="@string/bar2_name"
+        />
+
+    <com.xl.ratingbar.MyRatingBar
+        android:id="@+id/bar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:touchable="true"
+        app:starCount="5"
+        app:starNum="2"
+        app:halfstart="true"
+        app:starEmpty="@mipmap/fat_star_empty"
+        app:starHalf="@mipmap/fat_star_half"
+        app:starFill="@mipmap/fat_star_full"
+        app:starImageHeight="30dp"
+        app:starImageWidth="30dp"
+        app:starImagePadding="15dp"
+        >
+    </com.xl.ratingbar.MyRatingBar>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"
+        android:textColor="#4D4D4D"
+        android:text="@string/score"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp"
+        android:textColor="#4D4D4D"
+        android:text="@string/bar3_name"
+        />
+
+    <com.xl.ratingbar.MyRatingBar
+        android:id="@+id/bar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:touchable="true"
+        app:starCount="5"
+        app:starNum="3"
+        app:halfstart="false"
+        app:starEmpty="@mipmap/amimia"
+        app:starFill="@mipmap/smiling"
+        app:starImageHeight="30dp"
+        app:starImageWidth="30dp"
+        app:starImagePadding="15dp"
+        >
+    </com.xl.ratingbar.MyRatingBar>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"
+        android:textColor="#4D4D4D"
+        android:text="@string/comment"
+        />
+
+</LinearLayout>
