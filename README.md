@@ -2,6 +2,7 @@ RatingBar
 =====
 一个自定义的Android评分控件!
 <br>可更改图标，大小，间距，可选半图模式，点击模式，拖动模式，另外有回调监听. </br>
+![](https://img.shields.io/badge/version-0.1.1-brightgreen.svg)
 
 效果图
 -------
