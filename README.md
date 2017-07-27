@@ -106,7 +106,7 @@ RatingBar
 注意：
 -------
 touchable、clickable同时为true,默认为拖动模式！
-starHalf 并不是半个图，如：![](fat_star_half.png "半颗星")
+starHalf 并不是半个图，如：<br>![](fat_star_half.jpg "半颗星")</br>
 
 详细可见：
 [我的简书](http://www.jianshu.com/p/c108e8b08e59 "一只懵懂无知的博客")
